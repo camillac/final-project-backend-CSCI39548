@@ -20,7 +20,12 @@ const Campus = db.define("campus", {
 
   description: {
     type: Sequelize.STRING,
-  }
+  },
+
+  imageURL: {
+    type: Sequelize.STRING,
+    defaultValue: "https://media.cntraveler.com/photos/631b4fe1f2f54501e692c5d3/master/pass/University%20of%20Michigan_GettyImages-470656298.jpg",
+  },
 });
 
 // Export the campus model
