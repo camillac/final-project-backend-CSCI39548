@@ -18,7 +18,7 @@ const ash = require('express-async-handler');
 //   try {
 //     let students = await Student.findAll({include: [Campus]});
 //     res.status(200).json(students);
-//   } 
+//   }
 //   catch(err) {
 //     next(err);
 //   }
